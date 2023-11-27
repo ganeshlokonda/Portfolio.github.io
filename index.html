@@ -1,64 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Some part of netflix</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    
+    <header class="header">
 
-    <!-- header  -->
+            <div class="logo">
 
-        <header class="header">
+                <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="netflix logo">
 
-                <div class="logo">
-                    <p>Portfolio</p>
+            </div>
+
+            <div class="search">
+
+                <div class="search-bar">
+
+                    <input type="text" onkeyup="searchMovie()" id="search" placeholder="Search Movie" class="search-box">
+                    <img onclick="searchMovie()" class="search-icon" src="https://cdn-icons-png.flaticon.com/512/61/61088.png" alt="search icon">
+
                 </div>
-
-                <nav class="nav">
-
-                    <ul class="nav-links">
-                        <li class="fromCenter"><a href="">Home</a></li>
-                        <li class="fromCenter"><a href="AboutMe.html">AboutMe</a></li>
-                        <li class="fromCenter"><a href="certificates.html">certificates</a></li>
-                        <li class="fromCenter"><a href="projects.html">Projects</a></li>
-                    </ul>
-
-
-                </nav>
-
-
-        </header>
-
-
-    <!-- banner  -->
-
-
-        <section class="banner" id="ban">
-
-            <div class="details" id="animi">
-                <p class="t1">
-                    I am,
-                </p>
-                <p class="t2">
-                    Ganesh Lokonda
-                </p>
-                <p class="desc">
-                    JavaFull Stack Web Developer
-                </p>
-                <button class="cta">
-                    <a href="https://drive.google.com/file/d/1QyLdfWRAxknkal1fkKLHzhZgKBYWmSjJ/view?usp=drive_link" class="mail" download="">Download CV</a> 
-                </button>
+                
             </div>
 
-            <div class="person" id="per">
-                <img class="person-img" src="backtrashshort-removebg-preview.png" alt="">
-               
-            </div>
 
-        </section>
+    </header>
 
+    <section class="movies" id="movies">
+
+        
+
+
+    </section>
+
+
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
-
