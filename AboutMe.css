@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&family=Sriracha&display=swap');
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:rgba(12, 20, 241, 0.1)
+
+}
+.outside
+{
+   /* height: 90%; */
+   width:95%;
+   box-shadow:rgba(199, 199, 230, 0.1) 0px 4px 16px, rgba(186, 186, 225, 0.1) 0px 8px 24px, rgba(20, 20, 219, 0.1) 0px 16px 56px;
+   border-radius: 15px;
+   background-color:#fff;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.inside
+{
+  width: 80%;
+  height: 90%;
+  /* border: 2px solid red; */
+  display: flex;
+
+}
+.details
+{
+    /* box-shadow:rgba(57, 57, 227, 0.1) 0px 4px 16px, rgba(69, 69, 225, 0.1) 0px 8px 24px, rgba(20, 20, 219, 0.1) 0px 16px 56px;
+    border-radius: 15px; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+
+    /* align-content: flex-start; */
+    /* border:2px solid blue; */
+}
+.image
+{
+    padding-top: 30px;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+    /* border:2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+img{
+    height: 400px;
+    /* width: 200px; */
+    background-position: center;
+     background-size: cover;
+}
+.photo
+{
+
+     width:200px;
+     /* height: 240px; */
+     margin: 10px;
+     /* border: 2px solid red; */
+     border-radius: 20% 50%;
+     /* background-image: url(person.avif); */
+     /* background-image: url(backtrashshort-removebg-preview.png); */
+     background-color: blueviolet;
+     overflow: hidden;
+     background-position: center;
+     background-size: cover;
+}
+
+span{
+    font-size: 30px;
+    /* font-family: Agbalumo; */
+    color:blueviolet;
+
+}
+p{
+    /* font-weight: 900; */
+    /* text-transform: capitalize; */
+     /* line-height: 250%;  */
+     /* padding: 10px; */
+     font-family:Sriracha;
+     
+     /* font-weight: bold; */
+     /* font-size: 20px; */
+     /* font-size: 18px; */
+}
+ a{
+    text-decoration: none;
+    font-size: 14px;
+    
+
+} *
+/* button{
+   
+    margin-top:30px;
+    height: 40px;
+    width: 80px;
+    text-decoration: none;
+    border:2px solid blueviolet;
+    background-color:blueviolet;
+    border-radius: 10px;
+   
+   
+
+     
+}*/
+.cta 
+{
+    padding: 4px 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color:blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+    
+}
+
+.cta:hover 
+{
+    background-color: transparent;
+    color: #5b5bb0;
+}
+
+
