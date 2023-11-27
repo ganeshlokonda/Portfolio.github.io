@@ -32,6 +32,33 @@ img{
 .main{
     display: flex;
 }
+.cta 
+{
+    padding: 4px 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color:blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+    
+}
+
+.cta:hover 
+{
+    background-color: transparent;
+    color: #5b5bb0;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight:bold;
+    font-style: italic;
+}
 /* .photo
 {
     width: 50px;
